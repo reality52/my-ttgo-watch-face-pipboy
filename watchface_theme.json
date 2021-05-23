@@ -1,0 +1,115 @@
+{
+  "dial": {
+    "enable": true,
+    "x_offset": 0,
+    "y_offset": 0
+  },
+  "label": [
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%H %M",
+      "font": "LCD",
+      "font_color": "#00ff48",
+      "font_size": 48,
+      "align": "center",
+      "hide_interval": -1,
+      "x_offset": 18,
+      "y_offset": 28,
+      "x_size": 134,
+      "y_size": 40
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%H:%M",
+      "font": "LCD",
+      "font_color": "#00ff48",
+      "font_size": 48,
+      "align": "center",
+      "hide_interval": 1,
+      "x_offset": 18,
+      "y_offset": 28,
+      "x_size": 134,
+      "y_size": 40
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%S",
+      "font": "LCD",
+      "font_color": "#00ff48",
+      "font_size": 32,
+      "align": "center",
+      "x_offset": 160,
+      "y_offset": 42,
+      "x_size": 32,
+      "y_size": 32
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%C%y-%b-%d",
+      "font": "LCD",
+      "font_color": "#00ff48",
+      "font_size": 32,
+      "align": "left",
+      "x_offset": 18,
+      "y_offset": 69,
+      "x_size": 155,
+      "y_size": 40
+    },
+    {
+      "enable": true,
+      "type": "battery_percent",
+      "label": "Core:%d%%",
+      "font": "LCD",
+      "font_color": "#00ff48",
+      "font_size": 32,
+      "align": "left",
+      "x_offset": 18,
+      "y_offset": 100,
+      "x_size": 155,
+      "y_size": 40
+    },
+    {
+      "enable": true,
+      "type": "battery_voltage",
+      "label": "V:%3.3g",
+      "font": "LCD",
+      "font_color": "#00ff48",
+      "font_size": 32,
+      "align": "left",
+      "x_offset": 18,
+      "y_offset": 130,
+      "x_size": 155,
+      "y_size": 40
+    },
+    {
+      "enable": true,
+      "type": "bluetooth_messages",
+      "label": "MSG:%d",
+      "font": "LCD",
+      "font_color": "#00ff48",
+      "font_size": 32,
+      "align": "left",
+      "x_offset": 18,
+      "y_offset": 160,
+      "x_size": 155,
+      "y_size": 40
+    },
+    {
+      "enable": true,
+      "type": "steps",
+      "label": "STP:%d",
+      "font": "LCD",
+      "font_color": "#00ff48",
+      "font_size": 16,
+      "align": "left",
+      "x_offset": 18,
+      "y_offset": 190,
+      "x_size": 155,
+      "y_size": 40
+    }
+  ]
+}
